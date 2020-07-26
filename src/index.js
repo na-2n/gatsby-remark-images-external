@@ -465,7 +465,7 @@ export default ({
 
                             // Ignore gifs as we can't process them,
                             // svgs as they are already responsive by definition
-                            if (isRelativeUrl(formattedImgTag.url)
+                            if ((isRelativeUrl(formattedImgTag.url) || isUrl(formattedImgTag.url))
                                 && fileType !== "gif"
                                 && fileType !== "svg") {
                                 const rawHTML = await generateImagesAndUpdateNode(

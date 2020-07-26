@@ -4,6 +4,7 @@
 /index.js
 /__tests__/*
 tests
+copy.sh
 
 # Created by https://www.toptal.com/developers/gitignore/api/node,visualstudiocode,vim,linux,windows,macos,emacs
 # Edit at https://www.toptal.com/developers/gitignore?templates=node,visualstudiocode,vim,linux,windows,macos,emacs
